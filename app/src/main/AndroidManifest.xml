@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SoulFaithAssistant"
+        tools:targetApi="31">
+        <activity
+            android:name=".TasbeehItem"
+            android:exported="false" />
+        <activity
+            android:name=".NaatAct"
+            android:exported="false" />
+        <activity
+            android:name=".DuaAct"
+            android:exported="false" />
+        <activity
+            android:name=".PrayerTim"
+            android:exported="false" />
+        <activity
+            android:name=".RamzanTime"
+            android:exported="false" />
+        <activity
+            android:name=".TasbeehCounter"
+            android:exported="false" />
+        <activity
+            android:name=".QiblaDirection"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5sp">
+
+       <TextView
+           android:id="@+id/naatNotxt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5sp"
+           android:text="1. "
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:layout_weight="0"
+           android:layout_gravity="center"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="4"
+           >
+
+           <TextView
+               android:id="@+id/naatNametxt"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5sp"
+               android:padding="5sp"
+               android:textStyle="bold"
+               android:text="Ye Sub Tmhara Karam h Aaqa"
+               android:textSize="18sp"/>
+
+           <TextView
+               android:id="@+id/naatKhwantxt"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5sp"
+               android:padding="5sp"
+               android:textSize="15sp"
+               android:text="Khurshid Ahmed"
+               android:layout_weight="5"/>
+
+       </LinearLayout>
+
+       <ImageView
+           android:id="@+id/naatPlayPauseBtn"
+           android:layout_width="wrap_content"
+           android:layout_height="37dp"
+           android:layout_gravity="center|end|right"
+           android:layout_margin="5sp"
+           android:layout_weight="1"
+           android:src="@drawable/baseline_play_arrow_24" />
+   </LinearLayout>
+
+
+</LinearLayout>
