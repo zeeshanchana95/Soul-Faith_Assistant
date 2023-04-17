@@ -10,4 +10,8 @@
     <color name="app_blue">#0350Bc</color>
     <color name="app_yellow">#edbf28</color>
 
+    <color name="colorPrimary">#bc214b</color>
+    <color name="colorPrimaryDark">#9e1c40</color>
+    <color name="colorAccent">#D81B60</color>
+
 </resources>

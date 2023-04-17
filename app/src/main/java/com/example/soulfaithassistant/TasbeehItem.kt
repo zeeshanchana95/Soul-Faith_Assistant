@@ -24,6 +24,7 @@ class TasbeehItem : AppCompatActivity() {
         counter_txt = findViewById(R.id.tasbeeh_count_txt)
         counterValue = parseInt(counter_txt.text.toString())
 
+
     }
 
     fun increaseCounter(view: View){
@@ -37,6 +38,7 @@ class TasbeehItem : AppCompatActivity() {
     }
 
     fun exitBtn(view:View){
+        this.finish()
         val intent = Intent(this, TasbeehCounter::class.java)
         startActivity(intent)
     }
